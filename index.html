@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartHelp AI - Chatbot</title>
+</head>
+<body>
+  <h1>Welcome to SmartHelp AI</h1>
+  <p>Need help? Ask our chatbot below!</p>
+
+  <!-- Dialogflow Messenger Web Integration -->
+  <df-messenger
+    intent="WELCOME"
+    chat-title="SmartHelp AI"
+    agent-id="61c58bf1-5942-401a-bf79-6cc4fe734a91"
+    language-code="en"
+  ></df-messenger>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</body>
+</html>
