@@ -39,27 +39,4 @@ SmartHelp AI is a cloud-powered chatbot built using **Dialogflow Messenger** and
    ```bash
    git clone https://github.com/gonthinapraveen/smarthelp-chatbot.git
    cd smarthelp-chatbot
-<df-messenger
-  agent-id="61c58bf1-5942-401a-bf79-6cc4fe734a91"
-  chat-title="SmartHelp AI"
-  language-code="en">
-</df-messenger>
 
-> 
-
----
-
-### 🔹 2. Save the File
-
-Save `README.md` inside the same folder as your `index.html`.
-
----
-
-### 🔹 3. Commit and Push the README
-
-Back in your terminal, run:
-
-```bash
-git add README.md
-git commit -m "Add professional README.md with project overview"
-git push
