@@ -38,5 +38,57 @@ SmartHelp AI is a cloud-powered chatbot built using **Dialogflow Messenger** and
 1. **Clone the repository**
    ```bash
    git clone https://github.com/gonthinapraveen/smarthelp-chatbot.git
-   cd smarthelp-chatbot
+   cd smarthelp-chatbot 2. Replace Agent ID in index.html
+Get your agent ID from Dialogflow → Integrations → Dialogflow Messenger.
+
+html
+Copy
+Edit
+<df-messenger
+  intent="WELCOME"
+  chat-title="SmartHelp AI"
+  agent-id="your-agent-id-here"
+  language-code="en">
+</df-messenger> 3. Connect to Firebase
+bash
+Copy
+Edit
+firebase login
+firebase init
+firebase deployYour chatbot will now be live at:
+🌐 https://my-smart-help-bot.web.app/
+
+🌐 Live Demo
+🔗 Click to View SmartHelp AI
+
+✅ Example Use Cases
+Order tracking
+
+General FAQs
+
+Feedback or contact automation
+
+Event info or rental support🛠️ Future Enhancements
+📈 Integrate with Firestore to log conversations
+
+🌍 Support multi-language responses
+
+🎯 Add intent-based follow-up and context
+
+📤 Email notifications via webhooks
+
+📝 License
+This project is licensed under the MIT License
+
+🙌 Credits
+Google Dialogflow
+
+Firebase Hosting
+
+Icons by Lucide & Google Fonts
+
+
+
+
+
 
